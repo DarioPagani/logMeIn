@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<!-- CSS -->
+<link href="./css/bulma.css" rel="stylesheet" />
+
+<!-- JavaScript -->
+<script src="./js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="./js/handler.js" type="text/javascript"></script>
+
+<!-- Risorse remote -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="container has-text-centered">
+		<h1 class="title">Log Into Facebook for the Java App</h1>
+	</section>
+	<section class="container">
+		<div class="card">
+			<div class="card-content">
+				<p>Pleas press the button below to obtain a Facebook's access
+					token</p>
+			  	<p><strong>TIP: </strong>Consider to disable for this page any ads blocker,
+			  	  Javascript blockers, privacy badger and/or LibreJS. They can block the loading of
+			  	  resources from our God Facebook and I cannot provide you an access token :(
+			  	</p>
+			</div>
+			<footer class="card-footer">
+				<p class="card-footer-item">
+					<a class="button is-info is-fullwidth" id="letMeIn"> <span class="icon">
+							<i class="fa fa-facebook-official"></i>
+					</span> <span>Autenticati su Facebook</span>
+					</a>
+				</p>
+			</footer>
+		</div>
+	</section>
+	<section class="container">
+		<div class="card">
+			<div class="card-content content">
+				<p>Your access token will appear here after the log in</p>
+				<p>If I've implemented a web browser directly into the
+					application this window will be closed automaticaly and access
+					token recorded. Otherwise copy the access token and manually add it</p>
+			</div>
+			<footer class="card-footer">
+				<div class="content">
+					<blockquote class="is-fullwidth" id="cout">nullptr</blockquote>
+				</div>
+			</footer>
+		</div>
+	</section>
+
+	<script src="./js/boot.js" type="text/javascript"></script>
+
+</body>
+</html>
